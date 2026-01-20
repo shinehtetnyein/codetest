@@ -1,0 +1,973 @@
+@import url("https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f8f5f0;
+}
+
+/* Start Nav Section */
+.site-nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.logo-container {
+  width: 170px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-container a {
+  font-family: "Kulim Park", sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+
+  text-decoration: none;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline;
+  margin: 0 15px;
+}
+
+.nav-links li a {
+  color: #1f392c;
+  text-decoration: none;
+  font-family: "SF Pro Text", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  src: url("../fonts/SF-Pro-Text-Medium.otf") format("otf");
+}
+
+.site-nav .join-creator {
+  font-family: "SF Pro Text", sans-serif;
+  src: url("../fonts/SF-Pro-Text-Medium.otf") format("otf");
+  font-size: 18px;
+  font-weight: 600px;
+  background-color: #ff60e6;
+  padding: 12px 32px 12px 32px;
+  border-radius: 100px;
+}
+
+/* End Nav Section */
+
+/* Start Banner Section */
+.banner-container {
+  height: 808px;
+}
+
+.banner {
+  margin-top: 40px;
+  padding: 80px 0px;
+  position: relative;
+}
+
+/* Start Banner Image Section */
+/* Image and icon Left Panel */
+.banner-img .float {
+  position: absolute;
+  z-index: -1;
+}
+
+.banner-img .hand_1 {
+  position: absolute;
+  top: -60px;
+  left: 0;
+
+  z-index: -1;
+}
+
+.banner-img .line {
+  position: absolute;
+  top: -50px;
+  left: 0;
+
+  z-index: -2;
+}
+
+.banner-img .bulb {
+  position: absolute;
+  top: 38%;
+  left: 13%;
+  z-index: -1;
+}
+
+.banner-img .instagram {
+  position: absolute;
+  top: 56%;
+  left: 35px;
+  z-index: -1;
+}
+
+.banner-img .facebook {
+  position: absolute;
+  top: 130%;
+  left: 120px;
+  z-index: -1;
+}
+
+.banner-img .line_1 {
+  position: absolute;
+  top: 36%;
+  left: 22.25%;
+  z-index: -2;
+}
+
+/* Image and icon Right Panel  */
+.banner-img .hand_2 {
+  position: absolute;
+  bottom: -60%;
+  right: 0;
+  z-index: -1;
+}
+
+.banner-img .line_2 {
+  position: absolute;
+  bottom: -35%;
+  right: 0;
+  z-index: -1;
+}
+
+.banner-img .facebook_1 {
+  position: absolute;
+  top: 20%;
+  right: 1%;
+  z-index: -2;
+}
+
+.banner-img .u_tube {
+  position: absolute;
+  bottom: -28%;
+  right: 160px;
+  z-index: -1;
+}
+
+.banner-img .bulb_1 {
+  position: absolute;
+  bottom: 38%;
+  right: 13%;
+  z-index: -1;
+}
+
+/* End Banner Image Section */
+
+.banner-content {
+  width: 1000px;
+  height: 336px;
+  margin: 0 auto;
+}
+
+.banner-content h1 {
+  color: #1f392c;
+  font-family: "SF Pro Display", sans-serif;
+  src: url("../fonts/SFPRODISPLAYREGULAR.OTF") format("otf");
+  text-align: center;
+  font-size: 105px;
+  margin: 0;
+  line-height: 112px;
+  letter-spacing: 0%;
+  font-weight: 700px;
+}
+
+.banner-content p {
+  width: 773px;
+  height: 64px;
+  color: #1f392c;
+  margin: 32px auto;
+  text-align: center;
+  font-family: "SF Pro Text", sans-serif;
+  src: url("../fonts/SF-Pro-Text-Regular.otf") format("otf");
+  font-size: 20px;
+  font-weight: 400px;
+  letter-spacing: 1%;
+}
+
+.email-input {
+  width: 566px;
+  max-width: 100%;
+  margin-top: 32px;
+  position: relative;
+  display: inline-block;
+}
+
+.email {
+  width: 100%;
+  padding: 14px 110px 14px 20px;
+  border-radius: 100px;
+  border: none;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.email:focus {
+  outline: none;
+}
+
+.email-input > button {
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  background-color: #ff60e6;
+  color: #1F392C;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+/* keep generic button rules if other buttons exist */
+button:not(.email-input > button) {
+  background-color: #ff60e6;
+}
+
+/* Start Partner Section */
+
+.partner-container {
+  height: 666px;
+  position: relative;
+  /* background-color: red; */
+}
+
+/* Start Partner vector Section  */
+
+.partner-vector {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.partner-vector .float {
+  position: absolute;
+  z-index: -1;
+}
+
+.partner-vector .vector-1 {
+  position: absolute;
+  top: 16%;
+  left: 48%;
+}
+
+.partner-vector .vector-2 {
+  position: absolute;
+  top: 0%;
+  left: 0;
+}
+
+/* End Partner vector Section   */
+
+.partner-container h1 {
+  width: 922px;
+  height: 134px;
+  margin: 0 auto;
+  color: #1f392c;
+  font-family: "SF Pro Display", sans-serif;
+  src: url("../fonts/SFPRODISPLAYBOLD.OTF") format("otf");
+  text-align: center;
+  font-size: 56px;
+}
+
+.partner-container .partner-card {
+  width: 1192px;
+  height: 340px;
+  border-radius: 24px;
+  margin: 64px auto;
+  background-color: #ffffff;
+
+  display: flex;
+  align-items: center;
+
+  position: relative;
+}
+
+.partner-card .partner-para {
+  width: 530px;
+  height: 201px;
+  margin-left: 69px;
+}
+
+.partner-child {
+  width: 700px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 32px;
+
+  position: absolute;
+  top: 50%;
+  left: 84%;
+  transform: translate(-50%, -50%);
+
+  overflow-x: scroll;
+  scrollbar-width: none;
+}
+
+.partner-para h2 {
+  color: #1f392c;
+  padding: 0;
+  margin: 0;
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: bold;
+  src: url("../fonts/SFPRODISPLAYBOLD.OTF") format("otf");
+  font-size: 48px;
+}
+
+.partner-para p {
+  font-family: "SF Pro Text", sans-serif;
+  src: url("../fonts/SF-Pro-Text-Regular.otf") format("otf");
+  font-size: 20px;
+  font-weight: 400px;
+  line-height: 32px;
+}
+
+.partner-card-child {
+  width: 404px;
+  height: 196px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #ff60e6;
+  padding: 24px;
+  border-radius: 16px;
+}
+
+.partner-card-child-1 .partner-card-para {
+  width: 356px;
+  height: 96px;
+  color: #1f392c;
+  font-family: "SF Pro Text", sans-serif;
+  src: url("../fonts/SF-Pro-Text-Regular.otf") format("otf");
+  font-size: 16px;
+  font-weight: 400px;
+  line-height: 24px;
+}
+
+.partner-card-child-1 .partner-card-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.partner-card-header p {
+  font-family: "SF Pro Text", sans-serif;
+  src: url("../fonts/SF-Pro-Text-Regular.otf") format("otf");
+  font-size: 16px;
+  font-weight: 400px;
+}
+
+/* End Partner Section */
+
+/* Start How we work Section */
+
+/* HWW Section 1 */
+.hww-section-1 {
+  height: 841px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hww-section-1-header {
+  width: 922px;
+  margin: 0 auto;
+}
+
+.hww-section-1-header h1 {
+  color: #1f392c;
+  text-align: center;
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 700;
+  src: url("../fonts/SFPRODISPLAYBOLD.OTF") format("otf");
+  font-size: 56px;
+}
+
+/* HWW Section 2 */
+
+.hww-section-2-container {
+  height: 635px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  /* background-color: red; */
+}
+
+/* Start Sectinon 2 Vector Section  */
+
+.hww-section-2-vector {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.hww-section-2-vector .float {
+  position: absolute;
+  z-index: -1;
+}
+
+.hww-section-2-vector .hand-1 {
+  position: absolute;
+  top: -30%;
+  left: 0;
+  z-index: 100;
+}
+
+.hww-section-2-vector .vector-1 {
+  position: absolute;
+  top: -8%;
+  left: 0;
+}
+
+.hww-section-2-vector .like-1 {
+  position: absolute;
+  top: 40%;
+  left: 12%;
+}
+
+.hww-section-2-vector .like-2 {
+  position: absolute;
+  top: 28%;
+  right: 15%;
+}
+
+.hww-section-2-vector .hand-2 {
+  position: absolute;
+  bottom: -14%;
+  right: 0;
+}
+
+.hww-section-2-vector .vector-2 {
+  position: absolute;
+  bottom: 10%;
+  right: 0;
+}
+
+/* End Section 2 Vector Section */
+
+.hww-section-2 {
+  width: 922px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hww-section-2 .heading-1 {
+  color: #1f392c;
+  text-align: center;
+  margin-top: 64px;
+  margin: auto;
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 700;
+  src: url("../fonts/SFPRODISPLAYBOLD.OTF") format("otf");
+  font-size: 56px;
+}
+
+.hww-section-2 .heading-2 {
+  width: 612px;
+  height: 114px;
+  padding: 14px;
+  margin: 64px auto;
+  color: #1f392c;
+  text-align: center;
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 700;
+  src: url("../fonts/SFPRODISPLAYBOLD.OTF") format("otf");
+  font-size: 32px;
+}
+
+.hww-section-2 .paragraph {
+  width: 691px;
+  height: 64px;
+  color: #1f392c;
+  text-align: center;
+  margin: 64px auto;
+  font-family: "SF Pro Text", sans-serif;
+  src: url("../fonts/SF-Pro-Text-Regular.otf") format("otf");
+  font-size: 20px;
+  font-weight: 400px;
+  line-height: 32px;
+}
+
+/* End HWW Section 2 */
+
+/* Start HWW Section 3  */
+
+.hww-section-3 {
+  height: 1801px;
+  /* background-color: red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hww-section-3-card {
+  width: 973px;
+  height: 515px;
+  margin-bottom: 64px;
+  display: flex;
+  justify-content: space-evenly;
+
+  /* background-color: green; */
+}
+
+.hww-section-3-card-info h1 {
+  color: #1f392c;
+  margin: 0;
+  padding: 0;
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 700;
+  src: url("../fonts/SFPRODISPLAYBOLD.OTF") format("otf");
+  font-size: 40px;
+}
+
+.hww-section-3-card-info p {
+  color: #1f392c;
+  font-family: "SF Pro Text", sans-serif;
+  src: url("../fonts/SF-Pro-Text-Regular.otf") format("otf");
+  font-size: 20px;
+  font-weight: 400px;
+  line-height: 32px;
+}
+
+/* End HWW Section 3 */
+
+/* End How we work Section */
+
+/* Start Reviews Section */
+
+.reviews-container {
+  height: 1043px;
+  /* background-color: red; */
+  padding: 64px 160px 63px 160px;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-section{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pre-arrow{
+  cursor: pointer;
+}
+
+.next-arrow{
+  margin-left: 15px;
+  cursor: pointer;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+}
+
+/* Arrow buttons for reviews carousel */
+.arrow-button {
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.arrow-button img {
+  cursor: pointer;
+  border-radius: 50%;
+  background: transparent;
+  transition: background-color 180ms ease, opacity 180ms ease, transform 120ms ease;
+  opacity: 0.4;
+  display: inline-block;
+}
+
+.arrow-button img.active {
+  background: #FF60E6;
+  opacity: 1;
+}
+
+.arrow-button img.disabled {
+  opacity: 0.35;
+  /* pointer-events: none; */
+  background: transparent;
+}
+
+.reviews-vector {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.reviews-vector .float {
+  position: absolute;
+  z-index: -1;
+}
+
+.reviews-vector .vector-1 {
+  position: absolute;
+  top: 20%;
+  left: 29%;
+}
+
+.reviews-vector .vector-2 {
+  position: absolute;
+  top: 36%;
+  left: 23%;
+}
+
+.reviews-container .reviews-info {
+  width: inherit;
+  /* background-color: green; */
+}
+
+.reviews-container .reviews-info p {
+  text-align: center;
+  color: #1f392c;
+  font-family: "SF Pro Text", sans-serif;
+  src: url("../fonts/SF-Pro-Text-Regular.otf") format("otf");
+  font-size: 20px;
+  margin-bottom: 50px;
+  font-weight: 400px;
+}
+
+.reviews-info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.reviews-info h1 {
+  color: #1f392c;
+  display: inline-flex;
+  align-items: center;
+  /* justify-content: center; */
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 700;
+  src: url("../fonts/SFPRODISPLAYBOLD.OTF") format("otf");
+  gap: 12px;
+  margin: 0;
+  font-size: 52px;
+  line-height: 1.05;
+}
+.reviews-info h1 img {
+  display: inline-block;
+  vertical-align: middle;
+  height: 1.1em;
+  width: auto;
+  max-height: 64px;
+}
+.we-can-do {
+  color: #1f392c;
+  margin-top: 64px;
+  font-size: 48px;
+  font-family: "SF Pro Display", sans-serif;
+  font-weight: 700;
+  src: url("../fonts/SFPRODISPLAYBOLD.OTF") format("otf");
+}
+
+@media (max-width: 768px) {
+  .reviews-info h1 {
+    font-size: 28px;
+    gap: 8px;
+  }
+  .reviews-info h1 img {
+    height: 1.2em;
+    max-height: 48px;
+  }
+  .we-can-do {
+    font-size: 22px;
+  }
+}
+
+.carousel-section h2{
+    width: 416px;
+    margin-bottom: 62px;
+    color: #1f392c;
+    margin-top: 64px;
+    font-size: 32px;
+    font-family: "SF Pro Display", sans-serif;
+    font-weight: 700;
+    src: url("../fonts/SFPRODISPLAYBOLD.OTF") format("otf");
+}
+
+.reviews-cards{
+  width: 89%;
+  display: flex;
+  justify-content: space-around;
+  scrollbar-width: auto;
+  position: absolute;
+  gap: 1rem;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 0.5rem;
+}
+
+.reviews-cards::-webkit-scrollbar {
+  height: 8px;
+}
+.reviews-cards::-webkit-scrollbar-thumb {
+  background: rgba(0,0,0,0.18);
+  border-radius: 4px;
+}
+
+
+.reviews-card{
+    height: 352px;
+    background-color: #FFADF2;
+    padding: 24px 56px 24px 56px;
+    border-radius: 16px;
+    gap: 16px;
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+}
+
+.reviews-card:nth-child(2){
+  background-color: #FF60E6;
+}
+
+.reviews-card p{
+  width: 396px;
+}
+
+.reviews-card h1{
+    color: #1f392c;
+    font-family: "SF Pro Text", sans-serif;
+    src: url("../fonts/SF-Pro-Text-Regular.otf") format("otf");
+    font-size: 32px;
+    font-weight: 500px;
+}
+
+.reviews-card p{
+    color: #1f392c;
+    font-family: "SF Pro Text", sans-serif;
+    src: url("../fonts/SF-Pro-Text-Regular.otf") format("otf");
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 32px;
+}
+
+/* End Reviews Section */
+
+/* Start Charity Section */
+
+.charity-container{
+  height: 643px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.charity-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 32px;
+}
+
+.charity-image-info{
+  width: 580px;
+  height: 515px;
+  background-color:#FF60E6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+
+.charity-image-card{
+  margin-top: 20px;
+}
+
+.charity-image-info p{
+  width: 412px;
+  margin-left: 50px;
+  color: #1f392c;
+  font-family: "SF Pro Text", sans-serif;
+  src: url("../fonts/SF-Pro-Text-Regular.otf") format("otf");
+  font-size: 20px;
+  line-height: 32px;
+}
+
+.charity-para{
+  width: 580px;
+  height: 515px;
+  background-color: #fff;
+  border-radius: 16px;
+  -webkit-border-radius: 16px;
+  -moz-border-radius: 16px;
+  -ms-border-radius: 16px;
+  -o-border-radius: 16px;
+}
+
+.charity-para h1{
+    margin: 56px 0 0 56px;
+    color: #1f392c;
+    font-size: 56px;
+    font-family: "SF Pro Display", sans-serif;
+    font-weight: 700;
+    src: url("../fonts/SFPRODISPLAYBOLD.OTF") format("otf");
+}
+
+.charity-para p{
+  width: 398px;
+  height: 160px;
+  margin: 16px 0 0 56px;
+  color: #1f392c;
+  font-family: "SF Pro Text", sans-serif;
+  src: url("../fonts/SF-Pro-Text-Regular.otf") format("otf");
+  font-size: 20px;
+  line-height: 32px;
+}
+
+/* End Charity Section  */
+
+/* Start Footer Section */
+
+.footer {
+  background: #faf7f2;
+  padding: 60px 20px 30px;
+  font-family: Arial, sans-serif;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+
+.footer-container h1 {
+    color: #1f392c;
+    font-size: 56px;
+    font-family: "SF Pro Display", sans-serif;
+    font-weight: 700;
+    src: url("../fonts/SFPRODISPLAYBOLD.OTF") format("otf");
+}
+
+.footer-container p {
+  color: #1f392c;
+  font-family: "SF Pro Text", sans-serif;
+  src: url("../fonts/SF-Pro-Text-Regular.otf") format("otf");
+  font-size: 20px;
+  line-height: 32px;
+  margin-bottom: 72px;
+}
+
+.email-input {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+}
+
+.email-input .email {
+  width: 567px;
+  height: 64px;
+  border-radius: 100px;
+  border: 1px solid #ddd;
+  outline: none;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  -ms-border-radius: 100px;
+  -o-border-radius: 100px;
+}
+
+.email-input .email::placeholder{
+    color: #D4D4D4;
+    font-family: "SF Pro Text", sans-serif;
+    src: url("../fonts/SF-Pro-Text-Regular.otf") format("otf");
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 32px;
+}
+
+.join-btn {
+  width: 102px;
+  height: 48px;
+  padding: 12px 32px 12px 32px;
+  border-radius: 25px;
+  border: none;
+  background:#FF60E6;
+  color: #1F392C;
+    font-family: "SF Pro Text", sans-serif;
+    src: url("../fonts/SF-Pro-Text-Regular.otf") format("otf");
+    font-size: 20px;
+    font-weight: 400px;
+    line-height: 32px;
+  cursor: pointer;
+}
+
+.join-btn:hover {
+  opacity: 0.9;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  font-size: 13px;
+  color: #333;
+  margin-top: 72px;
+}
+
+.footer-bottom .copyright{
+  font-weight: 500px;
+  color: #1f392c;
+  font-family: "SF Pro Text", sans-serif;
+  src: url("../fonts/SF-Pro-Text-Regular.otf") format("otf");
+  font-size: 20px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 10px;
+  font-weight: 500px;
+  color: #1f392c;
+  font-family: "SF Pro Text", sans-serif;
+  src: url("../fonts/SF-Pro-Text-Regular.otf") format("otf");
+  font-size: 20px;
+}
+
+.footer-links a{
+  color: #1f392c;
+  margin-left: 32px;
+  text-decoration: none;
+}
+
+.social-icons a img{
+    margin-left: 18px;
+
+}
+
+/* End Footer Section */
